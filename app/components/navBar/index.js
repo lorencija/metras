@@ -1,14 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Style from './style.css';
 
 export default function NavBar() {
   return (
-    <>
-      <Link to="/apie_mus">Apie mus</Link>
-      <Link to="/medvilnines_virves">Medvilninės virvės</Link>
-      <Link to="/gaminiai">Gaminiai</Link>
-      <Link to="/straipsniai">Straipsniai</Link>
-      <Link to="/kontaktai">Kontaktai</Link>
-    </>
+    <div className={Style.navbar}>
+      <Link to="/" className={Style.link}>
+        Pradžia
+      </Link>
+      <Link to="/medvilnines_virves" className={Style.link}>
+        Medvilninės virvės
+      </Link>
+      <Link to="/gaminiai" className={Style.link}>
+        Gaminiai
+      </Link>
+      <Link to="/straipsniai" className={Style.link}>
+        Straipsniai
+      </Link>
+      <Link to="/skaiciuokles" className={Style.link}>
+        Skaičiuoklės
+      </Link>
+      <Link to="/informacija" className={Style.link}>
+        Informacija
+      </Link>
+    </div>
   );
 }

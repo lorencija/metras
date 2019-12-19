@@ -1,0 +1,21 @@
+.footerNav{
+  background-color:#e6f2f1;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.link {
+  font-size:18px;
+  font-weight: 500;
+  color: #5FA59B;
+  text-decoration: none;
+}
+.link:hover {
+  color: #333333;
+}
+.icon {
+  color: #5FA59B;
+}
+.icon:hover {
+  color: #333333;
+}

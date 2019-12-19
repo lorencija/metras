@@ -7,6 +7,9 @@ import CottonRope from '../CottonRope/index';
 import Products from '../Products/index';
 import Articles from '../Articles/index';
 import Contacts from '../Contacts/index';
+import Calculation from '../Calculation/index';
+import Delivery from '../Delivery/index';
+import Conditions from '../Conditions/index';
 // import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 // import GlobalStyle from '../../global-styles';
@@ -21,6 +24,9 @@ export default function App() {
         <Route exact path="/gaminiai" component={Products} />
         <Route exact path="/straipsniai" component={Articles} />
         <Route exact path="/kontaktai" component={Contacts} />
+        <Route exact path="/skaiciuokles" component={Calculation} />
+        <Route exact path="/pristatymas" component={Delivery} />
+        <Route exact path="/salygos" component={Conditions} />
         {/* <Route component={NotFoundPage} /> */}
       </Switch>
       {/* <GlobalStyle /> */}

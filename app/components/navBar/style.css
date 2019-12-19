@@ -1,0 +1,18 @@
+.link {
+  font-family: 'Amatic SC', serif;
+  font-size:30px;
+  font-weight: bold;
+  color: #333333;
+  text-decoration: none;
+}
+.link:hover {
+  color: #5FA59B;
+  text-decoration: underline;
+  text-decoration-color: #5FA59B;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
