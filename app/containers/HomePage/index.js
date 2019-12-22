@@ -1,15 +1,14 @@
 import React from 'react';
-import Header from '../../components/header/index';
-import Footer from '../../components/footer/index';
+import Main from '../../components/main';
 // import { FormattedMessage } from 'react-intl';
 // import messages from './messages';
 
 export default function HomePage() {
   return (
     <>
-      <Header />
-      <h1>home page</h1>
-      <Footer />
+      <Main>
+        <h1>home page</h1>
+      </Main>
     </>
   );
 }

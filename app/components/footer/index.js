@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterNavBar from '../footerNavBar/index';
+import FooterNavBar from '../footerNavBar';
 import Style from './style.css';
 
 export default function Footer() {

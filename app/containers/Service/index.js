@@ -1,11 +1,11 @@
 import React from 'react';
 import Main from '../../components/main';
 
-export default function Contacts() {
+export default function Service() {
   return (
     <>
       <Main>
-        <h1>Salygos</h1>
+        <h1>paslaugos</h1>
       </Main>
     </>
   );

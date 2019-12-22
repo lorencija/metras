@@ -1,0 +1,69 @@
+[
+    {
+        "text": "Pradžia",
+        "path": "/",
+        "sublist": [],
+        "key": 1
+    },
+    {
+        "text": "Medvilninės virvės",
+        "path": "/medvilnines_virves",
+        "sublist": [],
+        "key": 2
+    },
+    {
+        "text": "Gaminiai",
+        "path": "/gaminiai",
+        "sublist": [],
+        "key": 3
+    },
+    {
+        "text": "Paslaugos",
+        "path": "/paslaugos",
+        "sublist": [],
+        "key": 4
+    },
+    {
+        "text": "Mokymai",
+        "path": "/mokymai",
+        "sublist": [],
+        "key": 5
+    },
+    {
+        "text": "Informacija",
+        "path": "/informacija",
+        "sublist": [
+            {
+                "text": "Apie mus",
+                "path": "/apie_mus",
+                "sublist": [],
+                "key": 61
+            },
+            {
+                "text": "Skaičiuoklė",
+                "path": "/skaiciuokles",
+                "sublist": [],
+                "key": 62
+            },
+            {
+                "text": "Prekių pristatymas",
+                "path": "/pristatymas",
+                "sublist": [],
+                "key": 63
+            },
+            {
+                "text": "Sąlygos ir taisyklės",
+                "path": "/salygos",
+                "sublist": [],
+                "key": 64
+            },
+            {
+                "text": "Kontaktai",
+                "path": "/kontaktai",
+                "sublist": [],
+                "key": 65
+            }
+        ],
+        "key": 6
+    }
+]

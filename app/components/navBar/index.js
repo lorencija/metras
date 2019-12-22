@@ -1,28 +1,33 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Style from './style.css';
 
-export default function NavBar() {
+export default function NavBar({ linksList }) {
   return (
     <div className={Style.navbar}>
-      <Link to="/" className={Style.link}>
-        Pradžia
-      </Link>
-      <Link to="/medvilnines_virves" className={Style.link}>
-        Medvilninės virvės
-      </Link>
-      <Link to="/gaminiai" className={Style.link}>
-        Gaminiai
-      </Link>
-      <Link to="/straipsniai" className={Style.link}>
-        Straipsniai
-      </Link>
-      <Link to="/skaiciuokles" className={Style.link}>
-        Skaičiuoklės
-      </Link>
-      <Link to="/informacija" className={Style.link}>
-        Informacija
-      </Link>
+      <ul className={Style.navbar_list}>
+        {linksList.map(link => (
+          <li className={Style.navbarItem} key={link.key}>
+            <Link to={link.path} className={Style.link}>
+              {link.text}
+            </Link>
+            <ul className={Style.navbar_sublist}>
+              {link.sublist.map(sublink => (
+                <li className={Style.navbarItem} key={sublink.key}>
+                  <Link to={sublink.path} className={Style.sublink}>
+                    {sublink.text}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
+
+NavBar.propTypes = {
+  linksList: PropTypes.array,
+};
