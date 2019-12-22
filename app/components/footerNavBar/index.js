@@ -1,24 +1,22 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import Style from './style.css';
 
-export default function FooterNavBar() {
+export default function FooterNavBar({ linksList }) {
   return (
     <div className={Style.footerNav}>
-      <Link to="/apie_mus" className={Style.link}>
-        Apie mus
-      </Link>
-      <Link to="/pristatymas" className={Style.link}>
-        Prekių pristatymas
-      </Link>
-      <Link to="/salygos" className={Style.link}>
-        Sąlygos ir taisyklės
-      </Link>
-      <Link to="/kontaktai" className={Style.link}>
-        Kontaktai
-      </Link>
+      <ul className={Style.footernav_list}>
+        {linksList.map(link => (
+          <li className={Style.navbarItem} key={link.key}>
+            <Link to={link.path} className={Style.link}>
+              {link.text}
+            </Link>
+          </li>
+        ))}
+      </ul>
       <a href="https://www.facebook.com/1metras.lt/" target="_blank">
         <FontAwesomeIcon
           icon={faFacebookSquare}
@@ -29,3 +27,7 @@ export default function FooterNavBar() {
     </div>
   );
 }
+
+FooterNavBar.propTypes = {
+  linksList: PropTypes.array,
+};

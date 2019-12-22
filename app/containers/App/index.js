@@ -3,17 +3,17 @@ import { Switch, Route } from 'react-router-dom';
 
 import Header from '../../components/header';
 import Footer from '../../components/footer';
-import HomePage from '../HomePage';
-import AboutAs from '../AboutAs';
-import CottonRope from '../CottonRope';
-import Products from '../Products';
-import Contacts from '../Contacts';
-import Calculation from '../Calculation';
-import Delivery from '../Delivery';
-import Conditions from '../Conditions';
-import Service from '../Service';
-import Training from '../Training';
-import Information from '../Information';
+import HomePage from '../HomePage/loadable';
+import AboutAs from '../AboutAs/loadable';
+import CottonRope from '../CottonRope/loadable';
+import Products from '../Products/loadable';
+import Contacts from '../Contacts/loadable';
+import Calculation from '../Calculation/loadable';
+import Delivery from '../Delivery/loadable';
+import Conditions from '../Conditions/loadable';
+import Service from '../Service/loadable';
+import Training from '../Training/loadable';
+import Information from '../Information/loadable';
 // import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 // import GlobalStyle from '../../global-styles';

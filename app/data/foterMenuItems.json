@@ -1,0 +1,32 @@
+[
+    {
+        "text": "Apie mus",
+        "path": "/apie_mus",
+        "sublist": [],
+        "key": 1
+    },
+    {
+        "text": "Skaičiuoklė",
+        "path": "/skaiciuokles",
+        "sublist": [],
+        "key": 2
+    },
+    {
+        "text": "Prekių pristatymas",
+        "path": "/pristatymas",
+        "sublist": [],
+        "key": 3
+    },
+    {
+        "text": "Sąlygos ir taisyklės",
+        "path": "/salygos",
+        "sublist": [],
+        "key": 4
+    },
+    {
+        "text": "Kontaktai",
+        "path": "/kontaktai",
+        "sublist": [],
+        "key": 5
+    }
+]

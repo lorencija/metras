@@ -10,7 +10,13 @@
 }
 .icon {
     font-size: 30px;
+    display: none;
 }
 .icon:hover, .icon:active{
     color: #5FA59B;
+}
+@media screen and (max-width:1030px){
+    .icon{
+        display: block;
+    }
 }
