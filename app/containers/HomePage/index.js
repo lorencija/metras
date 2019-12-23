@@ -8,6 +8,15 @@ export default function HomePage() {
     <>
       <Main>
         <h1>home page</h1>
+        <p>
+          asfduas ufasiuhfiosah fihasfoiasjfisaf
+          asfduasufasiuhfiosahfihasfoiasjfisaf
+          asfduasufasiuhfiosahfihasfoiasjfisaf
+          asfduasufasiuhfiosahfihasfoiasjfisaf
+          asfduasufasiuhfiosahfihasfoiasjfisaf
+          asfduasufasiuhfiosahfihasfoiasjfisaf
+          asfduasufasiuhfiosahfihasfoiasjfisafvasfduasufasiuhfiosahfihasfoiasjfisaf
+        </p>
       </Main>
     </>
   );
