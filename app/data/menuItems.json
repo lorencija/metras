@@ -14,7 +14,32 @@
     {
         "text": "Gaminiai",
         "path": "/gaminiai",
-        "sublist":[],
+        "sublist": [
+            {
+                "text": "Namams",
+                "path": "/namams",
+                "sublist": [],
+                "key": 31
+            },
+            {
+                "text": "Vaikams",
+                "path": "/vaikams",
+                "sublist": [],
+                "key": 32
+            },
+            {
+                "text": "Raktų pakabukai",
+                "path": "/raktupakabukai",
+                "sublist": [],
+                "key": 33
+            },
+            {
+                "text": "Papuošalai",
+                "path": "/papuošalai",
+                "sublist": [],
+                "key": 34
+            }
+        ],
         "key": 3
     },
     {

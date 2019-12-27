@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from '../../components/main';
+import Main from '../../components/layout/main';
 
 export default function Training() {
   return (
