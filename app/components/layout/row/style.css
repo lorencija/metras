@@ -3,3 +3,8 @@
     display: flex;
     height: auto;
 }
+@media screen and (max-width:1000px){
+    .conteiner{
+        display: block;
+    }
+}

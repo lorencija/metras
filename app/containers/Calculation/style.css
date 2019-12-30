@@ -10,3 +10,24 @@
 .center {
     text-align: center;
 }
+.paragraph{
+    line-height: 1.8;
+}
+.button{
+    border: 2px #5FA59B solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #5FA59B;
+    color: #fff;
+    font-family: 'Amatic SC', serif;
+    letter-spacing: 3px;
+}
+.button:focus{
+    outline: 0;
+}
+.button:hover{
+    background-color: #fff;
+    color: #5FA59B;
+}
