@@ -1,0 +1,12 @@
+.border {
+    margin: 2px;
+    padding: 3px;
+    border: solid 2px #5FA59B;
+}
+.line {
+    border: 2px solid #5FA59B;
+    width: 100px;
+}
+.center {
+    text-align: center;
+}

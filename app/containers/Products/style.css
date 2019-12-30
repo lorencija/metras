@@ -1,0 +1,16 @@
+hr{
+    border: 0.5px solid #5FA59B;
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+}
+.conteiner > div{
+    background-color: #f1f1f1;
+    width: 260px;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+}
