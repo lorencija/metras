@@ -49,8 +49,8 @@ export default function CarpetsCalculation() {
               </label>
               <p>
                 Skaičiavimai pateikiami apytiklūs, apvalinama visuomet į didesnę
-                pusę. Pavyzdžiui, jei pasirinkto dydžio kilimui reikia 0,3
-                vieneto - skaičiavimo rezultatuose matysime 1 vnt. ( 0,3 vnt.
+                pusę. Pavyzdžiui, jei pasirinkto dydžio kilimui reikia 0.3
+                vieneto - skaičiavimo rezultatuose matysime 1 vnt. ( 0.3 vnt.
                 atitinka 60 m. Viename vienete yra 200 m.) <br /> <br />
               </p>
               {carpetShape === 'round' && <CarpetFormCircle />}
