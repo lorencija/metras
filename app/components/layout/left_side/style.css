@@ -3,3 +3,8 @@
     padding-top: 3%;
     margin-right: 3%;
 }
+@media screen and (max-width:1000px){
+    .conteiner{
+        display: none;
+    }
+}

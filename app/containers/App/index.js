@@ -14,6 +14,9 @@ import Conditions from '../Conditions/loadable';
 import Service from '../Service/loadable';
 import Training from '../Training/loadable';
 import Information from '../Information/loadable';
+import CarpetsCalculation from '../Carpets_calculation';
+import GlovesCalculation from '../GlovesCalculation';
+import SocksCalculation from '../SocksCalculation';
 // import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 // import GlobalStyle from '../../global-styles';
@@ -34,6 +37,21 @@ export default function App() {
         <Route exact path="/paslaugos" component={Service} />
         <Route exact path="/mokymai" component={Training} />
         <Route exact path="/informacija" component={Information} />
+        <Route
+          exact
+          path="/skaiciuokles/kilimu_skaiciuokle"
+          component={CarpetsCalculation}
+        />
+        <Route
+          exact
+          path="/skaiciuokles/pirstiniu_skaiciuokle"
+          component={GlovesCalculation}
+        />
+        <Route
+          exact
+          path="/skaiciuokles/kojiniu_skaiciuokle"
+          component={SocksCalculation}
+        />
         {/* <Route component={NotFoundPage} /> */}
       </Switch>
       {/* <GlobalStyle /> */}
