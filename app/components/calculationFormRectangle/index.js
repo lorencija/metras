@@ -67,7 +67,7 @@ export default function CarpetFormRectangle() {
           onChange={handleWidthChange}
         />
       </div>
-      <button type="button" onClick={handleResultText}>
+      <button type="button" onClick={handleResultText} className={Style.button}>
         Skaičiuoti
       </button>
       <div>{resultText}</div>

@@ -50,7 +50,7 @@ export default function CarpetFormCircle() {
           onChange={handleSliderChange}
         />
       </div>
-      <button type="button" onClick={handleResultText}>
+      <button type="button" onClick={handleResultText} className={Style.button}>
         Skaičiuoti
       </button>
       <div>{resultText}</div>

@@ -29,23 +29,23 @@ export default function CarpetsCalculation() {
           <Row>
             <form>
               <p>Pasirinkite norimą kilimo formą: </p>
-              <label>
+              <label className={Style.form}>
                 <input
                   type="radio"
                   value="round"
                   checked={carpetShape === 'round'}
                   onChange={handleChange}
                 />
-                <span>Apvalus</span>
+                <span className={Style.form}>Apvalus</span>
               </label>
-              <label>
+              <label className={Style.form}>
                 <input
                   type="radio"
                   value="rectangle"
                   checked={carpetShape === 'rectangle'}
                   onChange={handleChange}
                 />
-                <span>Stačiakampis</span>
+                <span className={Style.form}>Stačiakampis</span>
               </label>
               <p>
                 Skaičiavimai pateikiami apytiklūs, apvalinama visuomet į didesnę

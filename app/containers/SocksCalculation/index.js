@@ -138,6 +138,7 @@ export default function SocksCalculation() {
             type="button"
             disabled={disabledButton}
             onClick={handleResult}
+            className={Style.button}
           >
             Skaičiuoti
           </button>
