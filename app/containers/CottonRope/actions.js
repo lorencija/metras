@@ -1,14 +1,8 @@
-import { SET_COTTONROPE, ADD_TOCART } from './constants';
+import { SET_COTTONROPE } from './constants';
 
 export function setCottonRope(rope) {
   return {
     type: SET_COTTONROPE,
     rope,
-  };
-}
-export function addToCart(id) {
-  return {
-    type: ADD_TOCART,
-    id,
   };
 }

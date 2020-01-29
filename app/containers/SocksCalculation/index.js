@@ -119,7 +119,7 @@ export default function SocksCalculation() {
                 <span>{notificationRow}</span>
               </label>
               <p>
-                <strong>Pasirinkite norimą kojinės ilgį (cm): </strong>
+                <strong>Pasirinkite norimą pėdos ilgį (cm): </strong>
               </p>
               <div className={Style.slider_box}>
                 <GreenSlider

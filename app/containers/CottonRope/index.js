@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { useInjectReducer } from 'utils/injectReducer';
-import { setCottonRope, addToCart } from './actions';
+import { setCottonRope } from './actions';
+import { addToCart } from '../Cart/actions';
 import reducer from './reducer';
 import Main from '../../components/layout/main';
 import Row from '../../components/layout/row';
@@ -13,8 +14,9 @@ import Style from './style.css';
 function CottonRope({ rope, set, add }) {
   useInjectReducer({ key: 'cottonRope', reducer });
   set(rope);
-  const handleClick = id => {
-    add(id);
+  const handleClick = item => {
+    add(item);
+    console.log(item);
   };
   return (
     <>
@@ -43,12 +45,12 @@ function CottonRope({ rope, set, add }) {
                     <span>{item.title}</span>
                     <p>{item.desc}</p>
                     <p>
-                      <b>Price: {item.price} Eur</b>
+                      <b>Kaina: {item.price} Eur</b>
                     </p>
                   </div>
                   <button
                     type="button"
-                    onClick={handleClick(item.id)}
+                    onClick={() => handleClick(item)}
                     className={Style.button}
                   >
                     Į krepšelį

@@ -71,9 +71,6 @@ const reducer = (state = initState, action) =>
         // eslint-disable-next-line no-param-reassign
         draft.rope = action.rope;
         break;
-      // case ADD_TOCART:
-      // draft.addedItems = [...state.addedItems, addedItems];
-      // bresak;
     }
   });
 
