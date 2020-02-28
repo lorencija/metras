@@ -19,7 +19,7 @@ export default function CarpetFormRectangle() {
     const s = lengthValue * widthValue;
     const coeficientForConversion = 100 / 840;
     const oneUnit = 200;
-    const result = Math.ceil((s * coeficientForConversion) / oneUnit, 0);
+    const result = Math.round((s * coeficientForConversion) / oneUnit, 2);
     let text = '';
     if (result === 1) {
       text = 'vieneto';
